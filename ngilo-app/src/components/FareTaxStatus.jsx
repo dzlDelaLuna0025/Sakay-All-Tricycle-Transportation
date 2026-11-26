@@ -1,6 +1,7 @@
 import React from 'react';
 
 const pesos = (value) => `₱${Number(value || 0).toFixed(2)}`;
+// hahahaha
 
 function FareTaxStatus({ quote, paymentStatus }) {
   if (!quote) {
